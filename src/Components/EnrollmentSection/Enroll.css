@@ -1,0 +1,15 @@
+.enrollwrapper {
+  margin-top: 100px;
+}
+.holdingall {
+  display: flex;
+  justify-content: space-between;
+}
+#hh {
+  color: rgba(27, 27, 29, 1);
+  font-size: 48px;
+}
+#hhh {
+  color: rgba(27, 27, 29, 1);
+  font-size: 20px;
+}

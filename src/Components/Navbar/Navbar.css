@@ -1,0 +1,82 @@
+.wrapperLineOne {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 128px 24px 128px;
+}
+
+.navDivTwo {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.navLogin {
+  font-weight: 500;
+  size: 16px;
+  line-height: 24px;
+  color: #992e9d;
+}
+.navButton {
+  width: 6.5625rem;
+  height: 3rem;
+  border-radius: 0.875rem;
+  padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+  background-color: #b73bbe;
+  color: white;
+
+  border: none;
+}
+.wrapperLineTwo {
+  background-color: #3b3b3e;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 100vw;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  color: #cfd0d2;
+  position: relative;
+}
+.rectanglecontainer {
+  color: white;
+  display: flex;
+}
+.rectangle {
+  border: 2px solid #ffa50b;
+  background-color: #ffa50b;
+  width: 75px;
+  height: 4px;
+  border-radius: 10px 10px 0px 0px;
+  bottom: 0;
+  position: absolute;
+}
+
+/* RESPONSIVE  MEDIA QUERIES  */
+
+@media (max-width: 600px) {
+  .refundWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrapperLineOne {
+    padding: 66px 24px;
+    display: flex;
+    width: 29rem;
+  }
+  .wrapperLineTwo {
+    font-size: 10px;
+    padding-left: 24px;
+    padding-right: 34px;
+    display: flex;
+    width: 29rem;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 484px) {
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}

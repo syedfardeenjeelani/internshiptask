@@ -1,0 +1,242 @@
+.curriculumWrapper {
+  margin-top: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130vh;
+  flex-direction: column;
+  gap: 56px;
+  background-color: rgba(252, 245, 254, 1);
+}
+.headingDiv {
+  width: 761px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 21px;
+  height: 155px;
+}
+.divlineone span {
+  width: 416px;
+  height: 62px;
+  font-size: 20px;
+  border-radius: 1000px;
+  background-color: rgba(249, 235, 252, 1);
+  border: 1px solid rgba(244, 214, 248, 1);
+  padding: 16px 28px 16px 28px;
+  color: rgba(153, 46, 157, 1);
+  text-align: center;
+}
+.divline2 {
+  width: 782px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.divline2 h1 {
+  font-size: 48px;
+  line-height: 72px;
+
+  color: #b73bbe;
+}
+.darker {
+  color: rgba(76, 77, 82, 1);
+  font-size: 48px;
+  line-height: 72px;
+}
+.divline2 .h1span2 {
+  background: linear-gradient(
+    to right,
+    rgba(183, 59, 190, 1),
+    rgba(235, 203, 46, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dataDiv {
+  width: 1184px;
+  height: 495px;
+  border-radius: 28px;
+  gap: 12px;
+  border: 1px solid rgba(229, 229, 232, 1);
+  background-color: rgba(255, 255, 255, 1);
+  padding: 28px;
+}
+
+.spacingdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 130px;
+  border-bottom: 1px solid rgba(229, 229, 232, 1);
+}
+.colDiv {
+  width: 867px;
+  gap: 2px;
+}
+#lineline {
+  color: rgba(131, 132, 141, 1);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#cpp {
+  font-size: 28px;
+  color: rgba(76, 77, 82, 1);
+  font-weight: 600;
+}
+.imgdiv {
+  width: 249px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 30px;
+  color: rgba(183, 59, 190, 1);
+  border-radius: 1000px;
+  border: 1px solid rgba(249, 235, 252, 1);
+  padding: 20px 24px;
+  gap: 10px;
+  background-color: rgba(252, 245, 254, 1);
+}
+.imgdiv img {
+  width: 24px;
+  height: 18px;
+}
+
+/* RESPONSIVE MEDIA QUERIES */
+@media (max-width: 1232px) {
+  .dataDiv {
+    width: 850px;
+  }
+  .spacingdiv {
+    flex-direction: column;
+    align-items: center;
+  }
+  #cpp {
+    font-size: 20px;
+  }
+  #lineline {
+    font-size: 14px;
+  }
+  .imgdiv {
+    width: 272px;
+    height: 56px;
+    font-size: 16px;
+  }
+
+  .colDiv {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .colDiv p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  /* .divlineone {
+    width: 500px;
+  } */
+}
+
+@media (max-width: 850px) {
+  .dataDiv {
+    width: 500px;
+  }
+  .headingDiv {
+    flex-direction: column-reverse;
+  }
+
+  .divline2 {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .divline2 h1 {
+    font-size: 24px;
+
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .divline2 h1 span {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .divline2 span {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .colDiv p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 600px) {
+  .dataDiv {
+    width: 90%;
+    padding: 20px;
+    height: 550px;
+  }
+
+  .headingDiv {
+    width: 90%;
+    max-width: 90%;
+  }
+  .curriculumWrapper {
+    width: 33rem;
+  }
+  .divlineone span {
+    width: 416px;
+    height: 62px;
+    border-radius: 1000px;
+    background-color: rgba(249, 235, 252, 1);
+    border: 1px solid rgba(244, 214, 248, 1);
+    padding: 12px;
+    font-size: 14px;
+    color: rgba(153, 46, 157, 1);
+    text-align: center;
+  }
+
+  .divline2 {
+    width: 90%;
+    max-width: 90%;
+  }
+
+  .colDiv {
+    width: 90%;
+    max-width: 90%;
+  }
+
+  .imgdiv {
+    width: 309px;
+    position: relative;
+    bottom: 4px;
+    font-size: 12px;
+    padding: 14px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    color: rgba(183, 59, 190, 1);
+
+    background-color: rgba(252, 245, 254, 1);
+  }
+  .divlineone span {
+    width: 80vw;
+
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .divline2 {
+    gap: 0;
+  }
+}

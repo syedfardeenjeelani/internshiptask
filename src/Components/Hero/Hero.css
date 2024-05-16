@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css?family=DM Sans");
+
+.heroWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+}
+
+.innerDivWrapper {
+  padding: 77px 0 0 128px;
+}
+
+.infoDiv {
+  display: flex;
+  flex-direction: column;
+  /* width: 766px; */
+  /* height: 458px; */
+  gap: 24px;
+}
+.lineOne {
+  display: flex;
+  width: 355px;
+  justify-content: center;
+  height: 55px;
+  border: 1px solid #ffa50b;
+  border-radius: 16px;
+  gap: 10px;
+  padding: 18px 24px;
+  align-items: center;
+  size: 20px;
+}
+.lineOne h2 {
+  font-weight: 500;
+}
+
+.lineOne span {
+  font-weight: 600;
+  color: #434347;
+}
+.bigText {
+  width: 98%;
+  font-size: 64px;
+  line-height: 84.99px;
+  font-weight: 700;
+  letter-spacing: -3%;
+  color: #595961;
+}
+.bigText span {
+  color: #992e9d;
+}
+.science {
+  width: 772px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.oneLine {
+  font-size: 20px;
+  line-height: 30px;
+}
+.oneLine span {
+  color: #434347;
+}
+.services {
+  color: #bb5302;
+  display: flex;
+  background-color: #fffcea;
+  border: 1px solid #fff4c5;
+  align-items: center;
+  padding: 12px 16px 12px 12px;
+  gap: 6px;
+  width: 255px;
+  height: 24px;
+  border-radius: 100px;
+}
+.servicesDiv {
+  display: flex;
+  gap: 14px;
+}
+.buttonsDiv {
+  display: flex;
+  gap: 12px;
+}
+.enroll {
+  width: 219px;
+  height: 75px;
+  padding: 24px 48px 24px 48px;
+  background: linear-gradient(
+    to right,
+    rgba(183, 59, 190, 1),
+    rgba(153, 46, 157, 1)
+  );
+  box-shadow: 0 8px 48px -10px rgba(153, 46, 157, 0.5);
+  border-radius: 20px;
+  border: none;
+  color: rgba(252, 245, 254, 1);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: "poppins";
+}
+.knowMore {
+  width: 175px;
+  height: 75px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(153, 46, 157, 1);
+  gap: 6px;
+  border: none;
+}
+.afterInfoDiv {
+  height: 172px;
+  padding: 0px 128px 0px 128px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(249, 235, 252, 1);
+  background: linear-gradient(
+    rgba(183, 59, 190, 0.05),
+    rgba(153, 46, 157, 0.05)
+  );
+}
+.miniCard {
+  display: flex;
+  gap: 12px;
+  border-right: 1px solid rgba(244, 214, 248, 1);
+  width: 19rem;
+  height: 8rem;
+  align-items: center;
+}
+.miniCard img {
+  height: 62px;
+  width: 62px;
+}
+.innedCardDetails {
+  display: flex;
+  gap: 2px;
+  flex-direction: column;
+}
+.number {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 500;
+  color: rgba(153, 46, 157, 1);
+}
+.courses {
+  font-size: 24px;
+  line-height: 28px;
+  font-family: "DM Sans";
+  color: rgba(104, 105, 114, 1);
+}
+/* RESPONSIVE  MEDIA QUERIES  */
+
+@media (max-width: 1181px) {
+  .afterInfoDiv {
+    display: none;
+  }
+}
+
+@media (max-width: 909px) {
+  .science {
+    width: 572px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .servicesDiv {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 789px) {
+  .science {
+    width: 472px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+@media (max-width: 598px) {
+  .science {
+    width: 388px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 36px;
+  }
+  .innerDivWrapper {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .lineOne {
+    width: 357px;
+    font-size: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .bigText {
+    width: 98%;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+    letter-spacing: -3%;
+    color: #595961;
+  }
+  .buttonsDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .services {
+    color: #bb5302;
+    display: flex;
+    background-color: #fffcea;
+    border: 1px solid #fff4c5;
+    align-items: center;
+    padding: 12px 16px 12px 12px;
+    gap: 6px;
+    width: 157px;
+    font-size: 12px;
+
+    height: 24px;
+    border-radius: 100px;
+  }
+  .servicesDiv {
+    display: flex;
+    font-size: 12px;
+    flex-wrap: wrap;
+  }
+  .buttonsDiv {
+    display: flex;
+    justify-content: center;
+    width: 26rem;
+  }
+  .enroll {
+    text-align: center;
+    width: 312px;
+    height: 64px;
+    text-align: center;
+    justify-content: center;
+    /* padding: 20px 32px 20px 32px; */
+    gap: 12px;
+  }
+  .knowMore {
+    width: 312px;
+    height: 27px;
+    justify-content: center;
+    /* padding: 20px 32px 20px 32px; */
+    gap: 12px;
+    background-color: #ffffff;
+  }
+}
